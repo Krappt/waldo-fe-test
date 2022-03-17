@@ -1,0 +1,48 @@
+@import '@theme';
+
+.listItem {
+  width: 300px;
+  min-height: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img {
+  margin: 20px 0;
+  min-height: 185px;
+}
+
+.info {
+  text-align: left;
+  padding: 10px 15px;
+ }
+
+.title {
+  font: $HEADER_6;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.infoItem {
+  margin-bottom: 5px;
+}
+
+.infoItemTitle {
+  font: $TEXT_SEMI_BOLD;
+}
+
+.toppings {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toppingsItem {
+  text-transform: capitalize;
+  font: $TEXT_REGULAR;
+}
+
+.toppingsItemLabel {
+  display: flex;
+  justify-content: space-between;
+}

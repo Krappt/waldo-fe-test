@@ -1,0 +1,19 @@
+@import '@theme';
+
+.root {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+  font: $HEADER_1;
+  justify-content: space-between;
+}
+
+.error {
+  margin-top: 100px;
+  text-align: center;
+  font: $HEADER_6;
+}
